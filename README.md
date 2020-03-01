@@ -14,7 +14,7 @@ Elements ::= Screen
 
 Screen ::= "Screen" ScreenAttributes [ UIElements ]
 
-<ScreenAttributes> ::= | Background
+ScreenAttributes ::= | Background
 
 ElementAtrributes ::= Background            
 

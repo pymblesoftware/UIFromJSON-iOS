@@ -8,13 +8,13 @@ The structure of JSON data is presented in a form similar to Bacus-Naur Form (BN
 The current specification is:
 
 <pre>
-UI ::= [ <Elements> ]
+UI ::= [ Elements ]
 
-<Elements> ::= <Screen> 
+Elements ::= Screen 
 
-<Screen> ::= "Screen" <ScreenAttributes> [ <UIElements> ]
+Screen ::= "Screen" ScreenAttributes [ UIElements ]
 
-<ScreenAttributes> ::= 
+<ScreenAttributes> ::= | Background
 
 ElementAtrributes ::= Background            
 
